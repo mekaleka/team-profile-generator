@@ -19,5 +19,5 @@ team-profile-generator
 
 ## Contact:
 
-### [Link to deploytd App]()
+### [Link to deploytd App](https://mekaleka.github.io/team-profile-generator/)
 
