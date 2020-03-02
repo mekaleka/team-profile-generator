@@ -1,0 +1,16 @@
+.body{
+    font-family: fantasy;
+}
+
+.manager{
+    
+    background-color: lightgrey;
+}
+
+.engineer{
+    background-color: lightblue;
+}
+
+.intern{
+    background-color: lightgreen;
+}
