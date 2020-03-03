@@ -1,7 +1,6 @@
-![Screenshot (24)](https://user-images.githubusercontent.com/58678985/75809767-86453d80-5d46-11ea-961e-428396f79e1b.png)
+# Project Name: team-profile-generator
 
-# Project Name:
-team-profile-generator
+![Screenshot (24)](https://user-images.githubusercontent.com/58678985/75809767-86453d80-5d46-11ea-961e-428396f79e1b.png)
 
 ## Table of Contents:
 
@@ -22,4 +21,4 @@ When using the app you will need to run `node app.js` to initiate.
 Run `npm run test` to initialize the testing stage. 
 
 ## Contact:
-If you have any questions feel free to contact me by email[michaeljamesplichta@gmail.com](michaeljamesplichta@gmail.com)
+If you have any questions feel free to contact me by email [michaeljamesplichta@gmail.com](michaeljamesplichta@gmail.com)
