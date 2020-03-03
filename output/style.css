@@ -1,7 +1,14 @@
 /*change font to fantasy*/
 .body {
     font-family: fantasy;
-    margin: 33%;
+}
+/*gives margin top to employee cards.*/
+.team{
+    margin-top: 1rem;
+}
+/*allows for employee cards to adjust to responsiveness vertically*/
+.team-area{
+    flex-wrap: wrap;
 }
 /*gives jumbotron background color of lightblue*/
 .jumbotron {
@@ -9,6 +16,7 @@
 }
 /*gives all card classes color and box shadow*/
 .card {
+    margin: 1rem;
     background-color: lightgrey;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(111, 116, 146, 0.822);
 }
