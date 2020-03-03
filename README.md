@@ -13,8 +13,6 @@ team-profile-generator
 - []()
 - []()
 
-## Description:
-
 ## Repository:
 
 ## Contact:

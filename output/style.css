@@ -1,16 +1,21 @@
-.body{
+/*change font to fantasy*/
+.body {
     font-family: fantasy;
 }
-
-.manager{
-    
-    background-color: lightgrey;
-}
-
-.engineer{
+/*gives jumbotron background color of lightblue*/
+.jumbotron {
     background-color: lightblue;
 }
-
-.intern{
-    background-color: lightgreen;
+/*gives all card classes color and box shadow*/
+.card {
+    background-color: lightgrey;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(111, 116, 146, 0.822);
+}
+/*gives all card-header classes background color lightblue*/
+.card-header{
+background-color: lightblue;
+}
+/*gives all card-body classes background color lightgrey*/
+.card-body{
+    background-color: lightgrey;
 }
