@@ -1,3 +1,4 @@
+//requires each file/employee to the respective file. 
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
@@ -14,6 +15,7 @@ const teamMembers = [];
 function navBar() {
   console.log("Chooser Option");
   inquirer
+  //prompts for user to select an employee.
     .prompt([
       {
         type: "list",
@@ -22,6 +24,7 @@ function navBar() {
         choices: ["Manager", "Engineer", "Intern", "Exit Application"]
       }
     ])
+    //logs and returns the users response.
     .then(function(response) {
       switch (response.menu) {
         case "Manager":
@@ -38,10 +41,10 @@ function navBar() {
       }
     });
 }
-//calls the chooser option function.
+//calls the prompt based on the choosers option.
 navBar();
-// Wrote code to use inquirer to gather information about the development team members,
-// and to create objects for each team member (using the correct classes as blueprints!)
+// Wrote code to use inquirer to gather information about the manager team member,
+// and to create objects for manager.
 function addManager() {
   inquirer
     .prompt([
@@ -66,6 +69,7 @@ function addManager() {
         message: "Enter Manager Office Number"
       }
     ])
+      //logs and returns the users response.
     .then(function(userResponse) {
       var manager = new Manager(
         userResponse.name,
@@ -79,6 +83,8 @@ function addManager() {
       navBar();
     });
 }
+// Wrote code to use inquirer to gather information about the engineer team member,
+// and to create objects for engineer.
 function addEngineer() {
   inquirer
     .prompt([
@@ -103,6 +109,7 @@ function addEngineer() {
         message: "Enter Engineer GitHub Account"
       }
     ])
+    //logs and returns the users response.
     .then(function(userResponse) {
       var engineer = new Engineer(
         userResponse.name,
@@ -116,6 +123,8 @@ function addEngineer() {
       navBar();
     });
 }
+// Wrote code to use inquirer to gather information about the manager team intern,
+// and to create objects for intern.
 function addIntern() {
   inquirer
     .prompt([
@@ -140,6 +149,7 @@ function addIntern() {
         message: "Enter Intern School"
       }
     ])
+    //logs and returns the users response.
     .then(function(userResponse) {
       var intern = new Intern(
         userResponse.name,
@@ -149,33 +159,13 @@ function addIntern() {
       );
       teamMembers.push(intern);
       console.log(userResponse);
+      //calls addIntern.
       navBar();
     });
 }
-//loop through team members array,depending on the role, it will call display methods and call the html generator. Then use fs package to output to the output file.
+//The `render` function generates and returns a block of HTML to the team.html including templated divs for each employee!
 function exitApplication() {
   var page = render(teamMembers);
   fs.writeFile("./output/team.html", page, () => {});
   console.log(page);
 }
-
-// After the user has input all employees desired, call the `render` function (required
-// above) and pass in an array containing all employee objects; the `render` function will
-// generate and return a block of HTML including templated divs for each employee!
-
-// After you have your html, you're now ready to create an HTML file using the HTML
-// returned from the `render` function. Now write it to a file named `team.html` in the
-// `output` folder. You can use the variable `outputPath` above target this location.
-
-// Hint: you may need to check if the `output` folder exists and create it if it
-// does not.
-
-// HINT: each employee type (manager, engineer, or intern) has slightly different
-// information; write your code to ask different questions via inquirer depending on
-// employee type.
-
-// HINT: make sure to build out your classes first! Remember that your Manager, Engineer,
-// and Intern classes should all extend from a class named Employee; see the directions
-// for further information. Be sure to test out each class and verify it generates an
-// object with the correct structure and methods. This structure will be crucial in order
-// for the provided `render` function to work!```

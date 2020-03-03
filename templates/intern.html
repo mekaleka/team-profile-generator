@@ -1,9 +1,15 @@
+<!--employee card class created here-->
 <div class="card employee-card">
-    <div class="card-header intern1">
+    <!--card header class-->
+    <div class="card-header">
+        <!--class for card title-->
         <h2 class="card-title">{{ name }}</h2>
+        <!--class for decal and role title-->
         <h3 class="card-title"><i class="fas fa-user-graduate mr-2"></i>{{ role }}</h3>
     </div>
+    <!--card body class-->
     <div class="card-body">
+        <!--class for list group items-->
         <ul class="list-group">
             <li class="list-group-item">ID: {{ id }}</li>
             <li class="list-group-item">Email: <a href="mailto:{{ email }}">{{ email }}</a></li>

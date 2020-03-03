@@ -1,6 +1,6 @@
 const Manager = require("../lib/Manager");
 const Employee = require("../lib/Employee");
-
+//testing for engineer to ensure all test values are met.
 test("Can set office number via constructor argument", () => {
   const testValue = 100;
   const e = new Manager("Foo", 1, "test@test.com", testValue);

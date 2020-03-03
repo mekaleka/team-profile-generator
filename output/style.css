@@ -1,6 +1,7 @@
 /*change font to fantasy*/
 .body {
     font-family: fantasy;
+    margin: 33%;
 }
 /*gives jumbotron background color of lightblue*/
 .jumbotron {

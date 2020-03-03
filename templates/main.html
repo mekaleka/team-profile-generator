@@ -13,16 +13,19 @@
 </head>
 
 <body>
-    <div class="container-fluid team-container">
+    <!--class for the container that wraps the jumbotron-->
+    <div class="container-md team-container">
         <div class="row">
+            <!--jumbotron and team heading-->
             <div class="col-12 jumbotron mb-3 team-heading">
                 <h1 class="text-center">My Team</h1>
             </div>
         </div>
     </div>
-    <div class="container team">
+    <!--constiner for team card content area -->
+    <div class="container-fluid team">
         <div class="row">
-            <div class="team-area col-12 d-flex justify-content-between">
+            <div class="team-area col-12 d-flex justify-content-around">
                 {{ team }}
             </div>
         </div>
