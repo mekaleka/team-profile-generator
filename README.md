@@ -1,7 +1,7 @@
 # Project Name:
 team-profile-generator
 
-![Screenshot (24)](![Screenshot (25)](https://user-images.githubusercontent.com/58678985/75832961-d2a77200-5d74-11ea-927b-6f5bfea855ce.png))
+![Screenshot (25)](https://user-images.githubusercontent.com/58678985/75832961-d2a77200-5d74-11ea-927b-6f5bfea855ce.png)
 
 ## Table of Contents:
 
