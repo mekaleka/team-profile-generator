@@ -9,7 +9,7 @@ team-profile-generator
 - [Description](#Description)
 - [Initialization](#Initialization)
 - [Test](#Test)
-- [Gif](#Gif)
+- [Links](#Links)
 - [Contact](#Contact)
 
 ## Description
@@ -22,9 +22,11 @@ When using the app you will need to run `node app.js` to initiate.
 ## Test:
 Run `npm run test` to initialize the testing stage. 
 
-## Gif:
+## Links:
 
-[Link](https://drive.google.com/file/d/1dSgKPxBtfiFD7rfWN_ya1g7YM1tByP3N/view)
+[Demo Gif](https://drive.google.com/file/d/1dSgKPxBtfiFD7rfWN_ya1g7YM1tByP3N/view)
+
+[Link to Portfolio](https://drive.google.com/file/d/1dSgKPxBtfiFD7rfWN_ya1g7YM1tByP3N/view)
 
 ## Contact:
 If you have any questions feel free to contact me by email [michaeljamesplichta@gmail.com](michaeljamesplichta@gmail.com)
