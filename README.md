@@ -24,7 +24,7 @@ Run `npm run test` to initialize the testing stage.
 
 ## Gif:
 
-![Link](https://drive.google.com/file/d/1dSgKPxBtfiFD7rfWN_ya1g7YM1tByP3N/view)
+[Link](https://drive.google.com/file/d/1dSgKPxBtfiFD7rfWN_ya1g7YM1tByP3N/view)
 
 ## Contact:
 If you have any questions feel free to contact me by email [michaeljamesplichta@gmail.com](michaeljamesplichta@gmail.com)
