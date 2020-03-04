@@ -26,7 +26,7 @@ Run `npm run test` to initialize the testing stage.
 
 [Demo Gif](https://drive.google.com/file/d/1dSgKPxBtfiFD7rfWN_ya1g7YM1tByP3N/view)
 
-[Link to Portfolio](file:///C:/Users/micha/code/homework/professional-portfolio/portfolio.html)
+[Link to Portfolio](https://mekaleka.github.io/professional-portfolio/)
 
 ## Contact:
 If you have any questions feel free to contact me by email [michaeljamesplichta@gmail.com](michaeljamesplichta@gmail.com)
